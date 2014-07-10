@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "font-weight"
   ],
   "css-font-weight": {
     "type": "git",
