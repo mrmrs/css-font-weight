@@ -35,7 +35,7 @@ or download the css on github and include in your project.
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fwn-ns { font-weight: normal; }
   .b-ns   { font-weight: bold; }
   .fw-light-ns  { font-weight: lighter; }
@@ -51,7 +51,7 @@ or download the css on github and include in your project.
   .fw9-ns { font-weight: 900; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fwn-m { font-weight: normal; }
   .b-m   { font-weight: bold; }
   .fw-light-m  { font-weight: lighter; }
@@ -68,7 +68,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .fwn-l { font-weight: normal; }
   .b-l  { font-weight: bold; }
   .fw-light-l  { font-weight: lighter; }
