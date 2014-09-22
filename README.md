@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-font-weight)
 ## File Size
 
 1.8K font-weight.css
-1.4K font-weight.min.css
+1.4K font-weight.min.css 
+299B minified and gzipped
 
 ## The Code
 ```
