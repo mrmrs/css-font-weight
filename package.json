@@ -1,5 +1,6 @@
 {
   "name": "css-font-weight",
+  "style": "font-weight.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-font-weight",
   "description": "Css module of single purpose classes for font weight",
