@@ -1,7 +1,7 @@
 {
   "name": "css-font-weight",
   "style": "font-weight.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-font-weight",
   "description": "Css module of single purpose classes for font weight",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-font-weight.css > css/css-font-weight.css && tachyons src/css-font-weight.css --minify > css/css-font-weight.min.css && tachyons src/css-font-weight.css --generate-docs --package=../../package.json > readme.md"
