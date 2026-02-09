@@ -1,38 +1,44 @@
 {
   "name": "css-font-weight",
-  "style": "font-weight.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-font-weight",
-  "description": "Css module of single purpose classes for font weight",
+  "version": "2.0.0",
+  "description": "Functional CSS for font-weight",
+  "style": "dist/font-weight.css",
+  "main": "dist/font-weight.css",
+  "exports": {
+    ".": "./dist/font-weight.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "font-weight"
+    "font-weight",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-font-weight": {
+  "homepage": "https://github.com/mrmrs/css-font-weight",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-font-weight.git"
+    "url": "https://github.com/mrmrs/css-font-weight.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-font-weight/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-font-weight/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
