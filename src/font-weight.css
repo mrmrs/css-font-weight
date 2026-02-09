@@ -18,7 +18,7 @@
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .fwn-s { font-weight: normal; }
   .b-s   { font-weight: bold; }
   .fw-light-s  { font-weight: lighter; }
@@ -34,7 +34,7 @@
   .fw9-s { font-weight: 900; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .fwn-m { font-weight: normal; }
   .b-m   { font-weight: bold; }
   .fw-light-m  { font-weight: lighter; }
@@ -51,7 +51,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .fwn-l { font-weight: normal; }
   .b-l  { font-weight: bold; }
   .fw-light-l  { font-weight: lighter; }
