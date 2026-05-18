@@ -1,4 +1,4 @@
-.fw-normal {
+.fwn {
   font-weight: normal;
 }
 
@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 
-.fw-lighter {
+.fw-light {
   font-weight: lighter;
 }
 
@@ -51,7 +51,7 @@
 }
 
 @media screen and (width >= 32em) {
-  .fw-normal-s {
+  .fwn-s {
     font-weight: normal;
   }
 
@@ -59,7 +59,7 @@
     font-weight: bold;
   }
 
-  .fw-lighter-s {
+  .fw-light-s {
     font-weight: lighter;
   }
 
@@ -105,7 +105,7 @@
 }
 
 @media screen and (width >= 48em) {
-  .fw-normal-m {
+  .fwn-m {
     font-weight: normal;
   }
 
@@ -113,7 +113,7 @@
     font-weight: bold;
   }
 
-  .fw-lighter-m {
+  .fw-light-m {
     font-weight: lighter;
   }
 
@@ -159,7 +159,7 @@
 }
 
 @media screen and (width >= 96em) {
-  .fw-normal-l {
+  .fwn-l {
     font-weight: normal;
   }
 
@@ -167,7 +167,7 @@
     font-weight: bold;
   }
 
-  .fw-lighter-l {
+  .fw-light-l {
     font-weight: lighter;
   }
 
